@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="audio_wrapper">
+        <div class="content">
+            <h3 >Audio Name: <b id="audio_index">1.</b> <b id="audio_name"></b> </h3>
+        </div>
+        <div class="timer_controler">
+            <h4>Audio Time: <b id="audio_time"></b> </h4>
+        </div>
+        <div class="timer_controler">
+            <h4>Audio End: <b id="audio_end"></b> </h4>
+        </div>
+        <div class="volume_controler">
+            <label for="">Volume: <b id="volume_parcent">100%</b> </label>
+            <input type="range" value="100"  min="0" max="100" id="btn_range">
+        </div>
+        <div class="btn_controller">
+            <button class="btn" id="btn_prev">
+                Prev
+            </button>
+
+            <button class="btn" id="btn_start">
+                Start
+            </button>
+            <!-- <button class="btn" id="btn_stop">
+                Stop
+            </button> -->
+
+            <button class="btn" id="btn_next">
+                Next
+            </button>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

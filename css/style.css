@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e7e7e7
+}
+.audio_wrapper{
+    width: 500px;
+    min-height: 500px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.644);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.volume_controler{
+    width: 235px;
+    margin: auto;
+    padding-top: 20px;
+}
+.volume_controler #btn_range{
+    width: 100%;
+    accent-color: black;
+    
+}
+.btn_controller{
+    text-align: center;
+    padding: 15px 0;
+}
+.btn_controller .btn{
+    background: #000;
+    color: white;
+    margin-right: 8px;
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn_controller .btn:hover{
+    background: blue;
+}
+.btn_controller .btn:not(:last-child){
+    margin-right: 0px;
+}
